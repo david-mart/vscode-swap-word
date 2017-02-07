@@ -2,7 +2,7 @@
     "name": "swap-word",
     "displayName": "swap-word",
     "description": "Command for quick word swtiching in VSCode",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "davidmart",
     "engines": {
         "vscode": "^1.5.0"
@@ -15,10 +15,12 @@
     ],
     "main": "./out/src/extension",
     "contributes": {
-        "commands": [{
-            "command": "extension.swapWord",
-            "title": "Swap Word"
-        }]
+        "commands": [
+            {
+                "command": "extension.swapWord",
+                "title": "Swap Word"
+            }
+        ]
     },
     "scripts": {
         "vscode:prepublish": "tsc -p ./",
