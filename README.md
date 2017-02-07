@@ -8,7 +8,7 @@ Put two anchors or select two text ranges to quickly swap them places.
 
 ## Commands
 
-> `Swap word` to initialize snippet
+`Swap word` to initialize snippet
 
 ## TODO
 

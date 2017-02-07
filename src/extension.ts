@@ -39,7 +39,7 @@ export function activate(context: vscode.ExtensionContext) {
             
             if (!secondSelection.length) {
                 secondRange  = <vscode.Selection> editor.document.getWordRangeAtPosition(secondRange.start);
-                secondSelection = editor.document.getText(firstRange)
+                secondSelection = editor.document.getText(secondRange)
             }
             
             editor.edit(builder => {
