@@ -2,13 +2,13 @@
     "name": "swap-word",
     "displayName": "swap-word",
     "description": "Command for quick word swtiching in VSCode",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "davidmart",
     "engines": {
         "vscode": "^1.5.0"
     },
     "categories": [
-        "Other"
+        "Other", "Formatters"
     ],
     "activationEvents": [
         "onCommand:extension.swapWord"
@@ -34,5 +34,6 @@
         "mocha": "^2.3.3",
         "@types/node": "^6.0.40",
         "@types/mocha": "^2.2.32"
-    }
+    },
+    "repository": "https://github.com/david-mart/vscode-swap-word"
 }
