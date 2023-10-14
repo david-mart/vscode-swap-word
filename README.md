@@ -12,10 +12,22 @@ Put two anchors or select two text ranges to quickly swap them places.
 
 ## Commands
 
-`Swap word` to initialize snippet
+`Swap word` to initialize snippet.
+
+## Example keybinding setup
+```json
+{
+    "key": "shift+alt+s",
+    "command": "extension.swapWord",
+    "when": "editorTextFocus"
+}
+```
+
+It is also possible to use `editorTextFocus && editorHasMultipleSelections` as the condition to avoid displaying the error notification.
 
 ## TODO
 
-1. Add default keyboard snippet
+1. Add default keyboard snippet.
+
 
 **Enjoy!**
